@@ -31,7 +31,7 @@ SOURCES += \
 
 OTHER_FILES += metadata.json
 
-INSTALL_ROOT=/usr/local/vnceglfs
+INSTALL_ROOT=/usr
 # INSTALL_ROOT=$$[QT_INSTALL_PREFIX]
 
 target.path = $${INSTALL_ROOT}/plugins/platforms

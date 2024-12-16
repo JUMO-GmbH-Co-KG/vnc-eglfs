@@ -64,7 +64,7 @@ SOURCES += \
 CONFIG += link_pkgconfig
 PKGCONFIG += openssl
 
-INSTALL_ROOT=/usr/local/vnceglfs
+INSTALL_ROOT=/usr
 # INSTALL_ROOT=$$[QT_INSTALL_PREFIX]
 
 target.path = $${INSTALL_ROOT}/lib
