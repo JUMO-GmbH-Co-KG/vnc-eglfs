@@ -219,7 +219,7 @@ static void grabWindow( QImage& frameBuffer )
     if ( logGrab().isDebugEnabled() )
         timer.start();
 
-#if 0
+#if 1
     const auto context = QOpenGLContext::currentContext();
 
     if ( isOpenGL12orBetter( context ) )
